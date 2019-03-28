@@ -5,7 +5,7 @@
         "short_description": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.",
         "lang": "fr",
         "license": "CC BY",
-        "about": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.\n\nGPIO0 \tPush Button (HIGH = off, LOW = on)\nGPIO12 \tRelay and its status LED\nGPIO13 \tGreen LED (HIGH = off, LOW = on)\nGPIO1 \tRX pin (for external sensors)\nGPIO3 \tTX pin (for external sensors)",
+        "about": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.\n\n| GPIO | Hardware |\n|---|---|\n| 0 | Push Button (HIGH = off, LOW = on) |\n| 12 | Relay and its status LED |\n| 13 | Green LED (HIGH = off, LOW = on) |\n| 1 | RX pin (for external sensors) |\n| 3 | TX pin (for external sensors) |",
         "status": "draft",
         "links": [
             {
@@ -44,12 +44,44 @@
             {
                 "title": "Modification de la prise pour simplifier la programmation",
                 "duration": 900,
-                "content": "Il s'agit de souder un connecteur pour faciliter la programmation du microcontroleur."
+                "content": "Il s'agit de souder un connecteur pour faciliter la programmation du microcontroleur.",
+                "inputs": [
+                    {
+                        "tool": {
+                            "slug": "fer-a-souder",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ]
             },
             {
                 "title": "Programmation de la prise",
                 "duration": 300,
-                "content": "On utilise KintoForIoT."
+                "content": "On utilise KintoForIoT.",
+                "inputs": [
+                    {
+                        "file": {
+                            "name": "Code source Arduino",
+                            "url": "code/prise-connectee-kinto/prise-connectee-kinto.ino"
+                        }
+                    },
+                    {
+                        "tool": {
+                            "slug": "Arduino-IDE",
+                            "github_organization": "myhumankit",
+                            "github_repository": "myworkshop-humanlab-tools"
+                        }
+                    }
+                ],
+                "media": [
+                    {
+                        "image": {
+                            "url": "images/arduino-ide-setup.png",
+                            "caption": "Setup Arduino IDE"
+                        }
+                    }
+                ]
             }
         ]
     }
