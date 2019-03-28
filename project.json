@@ -5,7 +5,7 @@
         "short_description": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.",
         "lang": "fr",
         "license": "CC BY",
-        "about": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.",
+        "about": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.\n\nGPIO0 \tPush Button (HIGH = off, LOW = on)\nGPIO12 \tRelay and its status LED\nGPIO13 \tGreen LED (HIGH = off, LOW = on)\nGPIO1 \tRX pin (for external sensors)\nGPIO3 \tTX pin (for external sensors)",
         "status": "draft",
         "links": [
             {
