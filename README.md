@@ -4,7 +4,7 @@
 
 Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.
 
-![featured_image](https://raw.githubusercontent.com/myhumankit/myworkshop/master/images/default_featured_image.jpg)
+![featured_image](images/prise-connectee.jpg)
 
 ## Liens
  * [documentation du projet](https://docs.humanlab.me/myhumankit/prise-connectee)

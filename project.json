@@ -18,7 +18,6 @@
                 "text": "page wiki du projet sur le wiki du Humanlab",
                 "fa5_icon": "fab fa-wikipedia-w"
             },
-            
             {
                 "url": "https://github.com/myhumankit/prise-connectee",
                 "text": "code source de la documentation sur GitHub",
@@ -28,9 +27,29 @@
         "contributors": [
             {
                 "full_name": "Julien Lebunetel",
+                "role": "Fabmanager référent",
                 "email": "julien@myhumankit.org",
-                "github_username": "jlebunetel",
-                "role": "Fabmanager référent"
+                "github_username": "jlebunetel"
+            }
+        ],
+        "featured_images": [
+            {
+                "image": {
+                    "url": "images/prise-connectee.jpg",
+                    "caption": "Prise Sonoff S20"
+                }
+            }
+        ],
+        "steps": [
+            {
+                "title": "Modification de la prise pour simplifier la programmation",
+                "duration": 900,
+                "content": "Il s'agit de souder un connecteur pour faciliter la programmation du microcontroleur."
+            },
+            {
+                "title": "Programmation de la prise",
+                "duration": 300,
+                "content": "On utilise KintoForIoT."
             }
         ]
     }
