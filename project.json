@@ -1,0 +1,37 @@
+{
+    "project": {
+        "full_name": "Prise connectée",
+        "slug": "prise-connectee",
+        "short_description": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.",
+        "lang": "fr",
+        "license": "CC BY",
+        "about": "Détournement d’une prise connectée Sonoff. Munie d’un microcontrôleur de type ESP8266, cette prise peut être reprogrammée à l’aide de l’IDE Arduino pour être pilotée en Wifi.",
+        "status": "draft",
+        "links": [
+            {
+                "url": "https://rennes.humanlab.me/projet/prise-connectee/",
+                "text": "page d'accueil du projet sur le GesLab",
+                "fa5_icon": "fas fa-home"
+            },
+            {
+                "url": "http://wikilab.myhumankit.org/index.php?title=Projets:Prise_connectee",
+                "text": "page wiki du projet sur le wiki du Humanlab",
+                "fa5_icon": "fab fa-wikipedia-w"
+            },
+            
+            {
+                "url": "https://github.com/myhumankit/prise-connectee",
+                "text": "code source de la documentation sur GitHub",
+                "fa5_icon": "fab fa-github"
+            }
+        ],
+        "contributors": [
+            {
+                "full_name": "Julien Lebunetel",
+                "email": "julien@myhumankit.org",
+                "github_username": "jlebunetel",
+                "role": "Fabmanager référent"
+            }
+        ]
+    }
+}
