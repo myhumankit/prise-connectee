@@ -22,6 +22,10 @@
                 "url": "https://github.com/myhumankit/prise-connectee",
                 "text": "code source de la documentation sur GitHub",
                 "fa5_icon": "fab fa-github"
+            },
+            {
+                "url": "https://esphome.io/devices/sonoff_s20.html",
+                "text": "exemple d'utilisation du Sonoff S20"
             }
         ],
         "contributors": [
